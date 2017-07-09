@@ -1,1 +1,3 @@
-"# chat-app" 
+## Chat App
+
+Chat app using websockets.
