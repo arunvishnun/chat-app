@@ -1,0 +1,92 @@
+/*html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+	border:0;
+	font:inherit;
+	font-size:100%;
+	margin:0;
+	padding:0;
+	vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+*/
+html, body {    
+	background: whitesmoke;
+    /*font-family: "product sans","open sans",arial,sans-serif;
+    font-size: 13px;*/
+    /*font-size: 16px;*/
+    /* font-family: 'Arimo', sans-serif;*/
+    color: #222;
+    font-family: 'Oxygen', sans-serif;
+}
+body{
+    font-family: 'Nunito';
+}
+
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #575ed8;
+}
+
+.main-content {
+    max-width: 900px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+}
+
+.chat-window{
+    height: 500px;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+.output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #575ed8;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button{
+    background: #575ed8;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
